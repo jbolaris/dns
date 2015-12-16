@@ -1,6 +1,6 @@
 CC=gcc
-all: hw4
+all: dns
 
-client: hw4.o
-	gcc -o hw4 hw4.c
+client: dns.o
+	gcc -o dns dns.c
 
